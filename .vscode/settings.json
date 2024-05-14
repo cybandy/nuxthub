@@ -1,6 +1,30 @@
 {
     "cSpell.words": [
-        "nuxthub"
+        "nuxthub",
+        "todos"
     ],
-    "nuxtr.monorepoMode.DirectoryName": "ui"
+    "nuxtr.monorepoMode.DirectoryName": "ui",
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+    "tailwindCSS.experimental.classRegex": [
+        [
+            "ui:\\s*{([^)]*)\\s*}",
+            "[\"'`]([^\"'`]*).*?[\"'`]"
+        ],
+        [
+            "/\\*\\s?ui\\s?\\*/\\s*{([^;]*)}",
+            ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"
+        ]
+    ],
+    "tailwindCSS.classAttributes": [
+        "class",
+        "className",
+        "ngClass",
+        "ui"
+    ]
 }
